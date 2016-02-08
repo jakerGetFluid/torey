@@ -5560,17 +5560,60 @@ table.hover tr:nth-of-type(even):hover {
 /* line 1, /Users/jakeryan/Documents/torey/scss/_home.scss */
 #hero {
   padding: 60px 0;
-  background-color: #c9c9c9;
   height: 90%;
   width: 100%;
-  text-align: center; }
-  /* line 7, /Users/jakeryan/Documents/torey/scss/_home.scss */
-  #hero h1 {
-    color: #fff;
-    font-weight: 900;
-    -webkit-transition: 1s ease-in-out;
-    transition: 1s ease-in-out;
-    font-size: 5rem; }
-    /* line 12, /Users/jakeryan/Documents/torey/scss/_home.scss */
-    #hero h1.shadow {
-      text-shadow: 5px 5px 0px #89bdd3; }
+  text-align: center;
+  position: relative;
+  overflow: hidden; }
+  /* line 10, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  #hero > .row {
+    z-index: 2;
+    position: relative; }
+    /* line 14, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    #hero > .row h1 {
+      color: #fff;
+      font-weight: 900;
+      -webkit-transition: 1s ease-in-out;
+      transition: 1s ease-in-out;
+      font-size: 5rem; }
+      /* line 19, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      #hero > .row h1.shadow {
+        text-shadow: 5px 5px 0px #9ad3de; }
+  /* line 25, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  #hero #overlay {
+    position: absolute;
+    background-size: cover;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(137, 189, 211, 0.9);
+    background: -webkit-gradient(left top, right bottom, color-stop(30%, rgba(201, 201, 201, 0.9)), color-stop(30%, rgba(137, 189, 211, 0.9)), color-stop(31%, rgba(137, 189, 211, 0.9)));
+    background: -webkit-linear-gradient(-45deg, rgba(201, 201, 201, 0.9) 30%, rgba(137, 189, 211, 0.9) 30%, rgba(137, 189, 211, 0.9) 31%);
+    background: -webkit-linear-gradient(315deg, rgba(201, 201, 201, 0.9) 30%, rgba(137, 189, 211, 0.9) 30%, rgba(137, 189, 211, 0.9) 31%);
+    background: linear-gradient(135deg, rgba(201, 201, 201, 0.9) 30%, rgba(137, 189, 211, 0.9) 30%, rgba(137, 189, 211, 0.9) 31%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#9ad3de', GradientType=1 );
+    background: #89bdd3, 0.1;
+    background: -webkit-gradient(left top, right bottom, color-stop(30%, #c9c9c9), color-stop(30%, #89bdd3), color-stop(31%, #89bdd3));
+    background: -webkit-linear-gradient(-45deg, #c9c9c9 30%, #89bdd3 30%, #89bdd3 31%);
+    background: -webkit-linear-gradient(315deg, #c9c9c9 30%, #89bdd3 30%, #89bdd3 31%);
+    background: linear-gradient(135deg, #c9c9c9 30%, #89bdd3 30%, #89bdd3 31%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#9ad3de', GradientType=1 ); }
+  /* line 54, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  #hero video {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0; }
+
+/* line 62, /Users/jakeryan/Documents/torey/scss/_home.scss */
+#bio {
+  height: 90%;
+  width: 100%;
+  position: relative;
+  background: #c9c9c9;
+  background: -webkit-gradient(left bottom, right top, color-stop(35%, #c9c9c9), color-stop(36%, #c9c9c9), color-stop(43%, #c9c9c9), color-stop(43%, #89bdd3));
+  background: -webkit-linear-gradient(45deg, #c9c9c9 35%, #c9c9c9 36%, #c9c9c9 43%, #89bdd3 43%);
+  background: linear-gradient(45deg, #c9c9c9 35%, #c9c9c9 36%, #c9c9c9 43%, #89bdd3 43%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#89bdd3', GradientType=1 ); }

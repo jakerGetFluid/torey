@@ -1,4 +1,9 @@
 $(document).foundation();
 $(document).ready(function() {
-  $('#hero h1').addClass('shadow');
+
+  function shadow(){
+    $('#hero h1').delay(9000).addClass('shadow');
+  }
+  setTimeout(shadow, 900);
+
 });

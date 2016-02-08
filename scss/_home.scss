@@ -1,16 +1,75 @@
 #hero {
   padding: 60px 0;
-  background-color: $primary-color;
   height: 90%;
   width: 100%;
   text-align: center;
-  h1{
-    color: #fff;
-    font-weight: 900;
-    transition: 1s ease-in-out;
-    font-size: 5rem;
-    &.shadow {
-      text-shadow: 5px 5px 0px $darker-blue;
+  position: relative;
+
+  //video
+  overflow: hidden;
+  > .row {
+    //video
+    z-index: 2;
+    position: relative;
+    h1{
+      color: #fff;
+      font-weight: 900;
+      transition: 1s ease-in-out;
+      font-size: 5rem;
+      &.shadow {
+        text-shadow: 5px 5px 0px $lighter-blue;
+      }
     }
   }
+  //video
+  #overlay {
+    position: absolute;
+    background-size: cover;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    //gradient w/ transparency (for video)
+    background: transparentize($darker-blue, .1);
+    background: -moz-linear-gradient(-45deg, transparentize($primary-color, .1) 30%, transparentize($darker-blue,.1) 30%, transparentize($darker-blue,.1) 31%);
+    background: -webkit-gradient(left top, right bottom, color-stop(30%, transparentize($primary-color, .1)), color-stop(30%, transparentize($darker-blue,.1)), color-stop(31%, transparentize($darker-blue,.1)));
+    background: -webkit-linear-gradient(-45deg, transparentize($primary-color, .1) 30%, transparentize($darker-blue,.1) 30%, transparentize($darker-blue,.1) 31%);
+    background: -o-linear-gradient(-45deg, transparentize($primary-color, .1) 30%, transparentize($darker-blue,.1) 30%, transparentize($darker-blue,.1) 31%);
+    background: -ms-linear-gradient(-45deg, transparentize($primary-color, .1) 30%, transparentize($darker-blue,.1) 30%, transparentize($darker-blue,.1) 31%);
+    background: linear-gradient(135deg, transparentize($primary-color, .1) 30%, transparentize($darker-blue,.1) 30%, transparentize($darker-blue,.1) 31%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#9ad3de', GradientType=1 );
+
+    //gradient w/o transparency
+    background: $darker-blue, .1;
+    background: -moz-linear-gradient(-45deg, $primary-color 30%, $darker-blue 30%, $darker-blue 31%);
+    background: -webkit-gradient(left top, right bottom, color-stop(30%, $primary-color), color-stop(30%, $darker-blue), color-stop(31%, $darker-blue));
+    background: -webkit-linear-gradient(-45deg, $primary-color 30%, $darker-blue 30%, $darker-blue 31%);
+    background: -o-linear-gradient(-45deg, $primary-color 30%, $darker-blue 30%, $darker-blue 31%);
+    background: -ms-linear-gradient(-45deg, $primary-color 30%, $darker-blue 30%, $darker-blue 31%);
+    background: linear-gradient(135deg, $primary-color 30%, $darker-blue 30%, $darker-blue 31%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#9ad3de', GradientType=1 );
+  }
+  video {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 0;
+  }
+  //end video stuff
+}// end hero
+#bio {
+  height: 90%;
+  width: 100%;
+  position: relative;
+
+  background: rgba(201,201,201,1);
+  background: -moz-linear-gradient(45deg, rgba(201,201,201,1) 35%, rgba(201,201,201,1) 36%, rgba(201,201,201,1) 43%, rgba(137,189,211,1) 43%);
+  background: -webkit-gradient(left bottom, right top, color-stop(35%, rgba(201,201,201,1)), color-stop(36%, rgba(201,201,201,1)), color-stop(43%, rgba(201,201,201,1)), color-stop(43%, rgba(137,189,211,1)));
+  background: -webkit-linear-gradient(45deg, rgba(201,201,201,1) 35%, rgba(201,201,201,1) 36%, rgba(201,201,201,1) 43%, rgba(137,189,211,1) 43%);
+  background: -o-linear-gradient(45deg, rgba(201,201,201,1) 35%, rgba(201,201,201,1) 36%, rgba(201,201,201,1) 43%, rgba(137,189,211,1) 43%);
+  background: -ms-linear-gradient(45deg, rgba(201,201,201,1) 35%, rgba(201,201,201,1) 36%, rgba(201,201,201,1) 43%, rgba(137,189,211,1) 43%);
+  background: linear-gradient(45deg, rgba(201,201,201,1) 35%, rgba(201,201,201,1) 36%, rgba(201,201,201,1) 43%, rgba(137,189,211,1) 43%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#89bdd3', GradientType=1 );
 }
