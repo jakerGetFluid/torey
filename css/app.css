@@ -1169,7 +1169,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -2275,7 +2275,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
@@ -5560,4 +5560,17 @@ table.hover tr:nth-of-type(even):hover {
 /* line 1, /Users/jakeryan/Documents/torey/scss/_home.scss */
 #hero {
   padding: 60px 0;
-  background-color: #c9c9c9; }
+  background-color: #c9c9c9;
+  height: 90%;
+  width: 100%;
+  text-align: center; }
+  /* line 7, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  #hero h1 {
+    color: #fff;
+    font-weight: 900;
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+    font-size: 5rem; }
+    /* line 12, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    #hero h1.shadow {
+      text-shadow: 5px 5px 0px #89bdd3; }

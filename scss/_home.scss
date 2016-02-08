@@ -1,4 +1,16 @@
 #hero {
   padding: 60px 0;
   background-color: $primary-color;
+  height: 90%;
+  width: 100%;
+  text-align: center;
+  h1{
+    color: #fff;
+    font-weight: 900;
+    transition: 1s ease-in-out;
+    font-size: 5rem;
+    &.shadow {
+      text-shadow: 5px 5px 0px $darker-blue;
+    }
+  }
 }
