@@ -1,8 +1,8 @@
 #hero {
   padding: 60px 0;
-  height: 90%;
+  height: 95%;
   width: 100%;
-  text-align: center;
+  text-align: left;
   position: relative;
 
   //video
@@ -11,13 +11,20 @@
     //video
     z-index: 2;
     position: relative;
-    h1{
+    h1 {
       color: #fff;
       font-weight: 900;
       transition: 1s ease-in-out;
       font-size: 5rem;
+      line-height: 1;
       &.shadow {
         text-shadow: 5px 5px 0px $lighter-blue;
+      }
+    }
+    h3 {
+      color: #fff;
+      small {
+        color: #f9f9f9;
       }
     }
   }
@@ -42,14 +49,14 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#9ad3de', GradientType=1 );
 
     //gradient w/o transparency
-    background: $darker-blue, .1;
-    background: -moz-linear-gradient(-45deg, $primary-color 30%, $darker-blue 30%, $darker-blue 31%);
-    background: -webkit-gradient(left top, right bottom, color-stop(30%, $primary-color), color-stop(30%, $darker-blue), color-stop(31%, $darker-blue));
-    background: -webkit-linear-gradient(-45deg, $primary-color 30%, $darker-blue 30%, $darker-blue 31%);
-    background: -o-linear-gradient(-45deg, $primary-color 30%, $darker-blue 30%, $darker-blue 31%);
-    background: -ms-linear-gradient(-45deg, $primary-color 30%, $darker-blue 30%, $darker-blue 31%);
-    background: linear-gradient(135deg, $primary-color 30%, $darker-blue 30%, $darker-blue 31%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#9ad3de', GradientType=1 );
+    // background: $darker-blue, .1;
+    // background: -moz-linear-gradient(-45deg, $primary-color 30%, $darker-blue 30%, $darker-blue 31%);
+    // background: -webkit-gradient(left top, right bottom, color-stop(30%, $primary-color), color-stop(30%, $darker-blue), color-stop(31%, $darker-blue));
+    // background: -webkit-linear-gradient(-45deg, $primary-color 30%, $darker-blue 30%, $darker-blue 31%);
+    // background: -o-linear-gradient(-45deg, $primary-color 30%, $darker-blue 30%, $darker-blue 31%);
+    // background: -ms-linear-gradient(-45deg, $primary-color 30%, $darker-blue 30%, $darker-blue 31%);
+    // background: linear-gradient(135deg, $primary-color 30%, $darker-blue 30%, $darker-blue 31%);
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#9ad3de', GradientType=1 );
   }
   video {
     position: absolute;
