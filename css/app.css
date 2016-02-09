@@ -1169,7 +1169,7 @@ html {
 body {
   padding: 0;
   margin: 0;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #0a0a0a;
@@ -2275,7 +2275,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   color: inherit;
@@ -2339,13 +2339,13 @@ h6 {
 
 /* line 317, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/typography/_base.scss */
 a {
-  color: #c9c9c9;
+  color: #e8edf3;
   text-decoration: none;
   line-height: inherit;
   cursor: pointer; }
   /* line 323, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/typography/_base.scss */
   a:hover, a:focus {
-    color: #adadad; }
+    color: #bccbdc; }
   /* line 331, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/typography/_base.scss */
   a img {
     border: 0; }
@@ -2600,14 +2600,14 @@ kbd {
   padding: 0.85em 1em;
   margin: 0 0 1rem 0;
   font-size: 0.9rem;
-  background-color: #c9c9c9;
+  background-color: #e8edf3;
   color: #fff; }
   /* line 160, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/util/_mixins.scss */
   [data-whatinput='mouse'] .button {
     outline: 0; }
   /* line 112, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button.scss */
   .button:hover, .button:focus {
-    background-color: #ababab;
+    background-color: #b9c8db;
     color: #fff; }
   /* line 197, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button.scss */
   .button.tiny {
@@ -2626,19 +2626,19 @@ kbd {
     margin-right: 0; }
   /* line 205, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button.scss */
   .button.primary {
-    background-color: #c9c9c9;
+    background-color: #e8edf3;
     color: #fff; }
     /* line 112, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button.scss */
     .button.primary:hover, .button.primary:focus {
-      background-color: #a1a1a1;
+      background-color: #aabcd2;
       color: #fff; }
   /* line 205, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button.scss */
   .button.secondary {
-    background-color: #e3e3e3;
+    background-color: #e6cf8b;
     color: #fff; }
     /* line 112, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button.scss */
     .button.secondary:hover, .button.secondary:focus {
-      background-color: #b6b6b6;
+      background-color: #d9b64e;
       color: #fff; }
   /* line 205, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button.scss */
   .button.success {
@@ -2666,31 +2666,31 @@ kbd {
       color: #fff; }
   /* line 222, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button.scss */
   .button.hollow {
-    border: 1px solid #c9c9c9;
-    color: #c9c9c9; }
+    border: 1px solid #e8edf3;
+    color: #e8edf3; }
     /* line 120, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button.scss */
     .button.hollow, .button.hollow:hover, .button.hollow:focus {
       background-color: transparent; }
     /* line 132, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button.scss */
     .button.hollow:hover, .button.hollow:focus {
-      border-color: #656565;
-      color: #656565; }
+      border-color: #51739c;
+      color: #51739c; }
     /* line 227, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button.scss */
     .button.hollow.primary {
-      border: 1px solid #c9c9c9;
-      color: #c9c9c9; }
+      border: 1px solid #e8edf3;
+      color: #e8edf3; }
       /* line 132, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button.scss */
       .button.hollow.primary:hover, .button.hollow.primary:focus {
-        border-color: #656565;
-        color: #656565; }
+        border-color: #51739c;
+        color: #51739c; }
     /* line 227, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button.scss */
     .button.hollow.secondary {
-      border: 1px solid #e3e3e3;
-      color: #e3e3e3; }
+      border: 1px solid #e6cf8b;
+      color: #e6cf8b; }
       /* line 132, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button.scss */
       .button.hollow.secondary:hover, .button.hollow.secondary:focus {
-        border-color: #727272;
-        color: #727272; }
+        border-color: #987a21;
+        color: #987a21; }
     /* line 227, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button.scss */
     .button.hollow.success {
       border: 1px solid #3adb76;
@@ -3114,7 +3114,7 @@ select {
   padding: 1.25rem 1rem;
   line-height: 1;
   font-size: 0.75rem;
-  color: #c9c9c9;
+  color: #e8edf3;
   position: relative;
   border-bottom: 1px solid #e6e6e6; }
   /* line 65, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_accordion.scss */
@@ -3148,7 +3148,7 @@ select {
     width: 0;
     height: 0;
     border: inset 6px;
-    border-color: #c9c9c9 transparent transparent;
+    border-color: #e8edf3 transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     position: absolute;
@@ -3173,11 +3173,11 @@ select {
   font-size: 0.6rem;
   text-align: center;
   border-radius: 50%;
-  background: #c9c9c9;
+  background: #e8edf3;
   color: #0a0a0a; }
   /* line 48, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_badge.scss */
   .badge.secondary {
-    background: #e3e3e3;
+    background: #e6cf8b;
     color: #0a0a0a; }
   /* line 48, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_badge.scss */
   .badge.success {
@@ -3220,7 +3220,7 @@ select {
       opacity: 1; }
   /* line 77, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_breadcrumbs.scss */
   .breadcrumbs a {
-    color: #c9c9c9; }
+    color: #e8edf3; }
     /* line 80, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_breadcrumbs.scss */
     .breadcrumbs a:hover {
       text-decoration: underline; }
@@ -3270,19 +3270,19 @@ select {
       float: none; }
   /* line 111, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button-group.scss */
   .button-group.primary .button {
-    background-color: #c9c9c9;
+    background-color: #e8edf3;
     color: #0a0a0a; }
     /* line 112, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button.scss */
     .button-group.primary .button:hover, .button-group.primary .button:focus {
-      background-color: #a1a1a1;
+      background-color: #aabcd2;
       color: #0a0a0a; }
   /* line 111, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button-group.scss */
   .button-group.secondary .button {
-    background-color: #e3e3e3;
+    background-color: #e6cf8b;
     color: #0a0a0a; }
     /* line 112, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button.scss */
     .button-group.secondary .button:hover, .button-group.secondary .button:focus {
-      background-color: #b6b6b6;
+      background-color: #d9b64e;
       color: #0a0a0a; }
   /* line 111, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_button-group.scss */
   .button-group.success .button {
@@ -3347,10 +3347,10 @@ select {
     margin-bottom: 0; }
   /* line 92, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_callout.scss */
   .callout.primary {
-    background-color: #f7f7f7; }
+    background-color: #fcfcfd; }
   /* line 92, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_callout.scss */
   .callout.secondary {
-    background-color: #fbfbfb; }
+    background-color: #fbf8ee; }
   /* line 92, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_callout.scss */
   .callout.success {
     background-color: #e1faea; }
@@ -3430,7 +3430,7 @@ select {
     width: 0;
     height: 0;
     border: inset 6px;
-    border-color: transparent transparent transparent #c9c9c9;
+    border-color: transparent transparent transparent #e8edf3;
     border-left-style: solid;
     border-right-width: 0;
     position: absolute;
@@ -3445,7 +3445,7 @@ select {
   width: 0;
   height: 0;
   border: inset 6px;
-  border-color: transparent #c9c9c9 transparent transparent;
+  border-color: transparent #e8edf3 transparent transparent;
   border-right-style: solid;
   border-left-width: 0;
   border-left-width: 0;
@@ -3531,7 +3531,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: #c9c9c9 transparent transparent;
+    border-color: #e8edf3 transparent transparent;
     border-top-style: solid;
     border-bottom-width: 0;
     position: absolute;
@@ -3544,7 +3544,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent #c9c9c9 transparent transparent;
+    border-color: transparent #e8edf3 transparent transparent;
     border-right-style: solid;
     border-left-width: 0;
     float: left;
@@ -3557,7 +3557,7 @@ select {
     width: 0;
     height: 0;
     border: inset 5px;
-    border-color: transparent transparent transparent #c9c9c9;
+    border-color: transparent transparent transparent #e8edf3;
     border-left-style: solid;
     border-right-width: 0; }
   /* line 112, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_dropdown-menu.scss */
@@ -3629,11 +3629,11 @@ select {
   white-space: nowrap;
   cursor: default;
   border-radius: 0;
-  background: #c9c9c9;
+  background: #e8edf3;
   color: #0a0a0a; }
   /* line 49, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_label.scss */
   .label.secondary {
-    background: #e3e3e3;
+    background: #e6cf8b;
     color: #0a0a0a; }
   /* line 49, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_label.scss */
   .label.success {
@@ -4033,7 +4033,7 @@ body {
   /* line 134, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_pagination.scss */
   .pagination .current {
     padding: 0.1875rem 0.625rem;
-    background: #c9c9c9;
+    background: #e8edf3;
     color: #0a0a0a;
     cursor: default; }
   /* line 138, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_pagination.scss */
@@ -4072,10 +4072,10 @@ body {
   border-radius: 0; }
   /* line 72, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_progress-bar.scss */
   .progress.primary .progress-meter {
-    background-color: #c9c9c9; }
+    background-color: #e8edf3; }
   /* line 72, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_progress-bar.scss */
   .progress.secondary .progress-meter {
-    background-color: #e3e3e3; }
+    background-color: #e6cf8b; }
   /* line 72, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_progress-bar.scss */
   .progress.success .progress-meter {
     background-color: #3adb76; }
@@ -4092,7 +4092,7 @@ body {
   display: block;
   width: 0%;
   height: 100%;
-  background-color: #c9c9c9; }
+  background-color: #e8edf3; }
 
 /* line 85, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_progress-bar.scss */
 .progress-meter-text {
@@ -4153,7 +4153,7 @@ body {
   display: inline-block;
   width: 1.4rem;
   height: 1.4rem;
-  background-color: #c9c9c9;
+  background-color: #e8edf3;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   -ms-touch-action: manipulation;
@@ -4164,7 +4164,7 @@ body {
     outline: 0; }
   /* line 95, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_slider.scss */
   .slider-handle:hover {
-    background-color: #ababab; }
+    background-color: #b9c8db; }
   /* line 99, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_slider.scss */
   .slider-handle.is-dragging {
     -webkit-transition: all 0s linear;
@@ -4365,7 +4365,7 @@ body.is-reveal-open {
     border-radius: 0; }
   /* line 116, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_switch.scss */
   input:checked ~ .switch-paddle {
-    background: #c9c9c9; }
+    background: #e8edf3; }
     /* line 119, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_switch.scss */
     input:checked ~ .switch-paddle::after {
       left: 2.25rem; }
@@ -4540,13 +4540,13 @@ table.hover tr:nth-of-type(even):hover {
 
 /* line 142, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_tabs.scss */
 .tabs.primary {
-  background: #c9c9c9; }
+  background: #e8edf3; }
   /* line 145, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_tabs.scss */
   .tabs.primary > li > a {
     color: #0a0a0a; }
     /* line 148, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_tabs.scss */
     .tabs.primary > li > a:hover, .tabs.primary > li > a:focus {
-      background: #bfbfbf; }
+      background: #d8e1eb; }
 
 /* line 155, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_tabs.scss */
 .tabs-title {
@@ -4557,7 +4557,7 @@ table.hover tr:nth-of-type(even):hover {
     padding: 1.25rem 1.5rem;
     line-height: 1;
     font-size: 12px;
-    color: #c9c9c9; }
+    color: #e8edf3; }
     /* line 85, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_tabs.scss */
     .tabs-title > a:hover {
       background: #fefefe; }
@@ -4599,7 +4599,7 @@ table.hover tr:nth-of-type(even):hover {
   margin-bottom: 1rem; }
   /* line 44, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_thumbnail.scss */
   .thumbnail:hover, .thumbnail:focus {
-    box-shadow: 0 0 6px 1px rgba(201, 201, 201, 0.5); }
+    box-shadow: 0 0 6px 1px rgba(232, 237, 243, 0.5); }
 
 /* line 38, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_title-bar.scss */
 .title-bar {
@@ -5560,61 +5560,78 @@ table.hover tr:nth-of-type(even):hover {
 /* line 1, /Users/jakeryan/Documents/torey/scss/_home.scss */
 #hero {
   padding: 60px 0;
-  height: 95%;
+  height: 105%;
   width: 100%;
   text-align: left;
   position: relative;
   overflow: hidden; }
-  /* line 10, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  /* line 8, /Users/jakeryan/Documents/torey/scss/_home.scss */
   #hero > .row {
     z-index: 2;
     position: relative; }
-    /* line 14, /Users/jakeryan/Documents/torey/scss/_home.scss */
-    #hero > .row h1 {
-      color: #fff;
-      font-weight: 900;
-      -webkit-transition: 1s ease-in-out;
-      transition: 1s ease-in-out;
-      font-size: 5rem;
-      line-height: 1; }
-      /* line 20, /Users/jakeryan/Documents/torey/scss/_home.scss */
-      #hero > .row h1.shadow {
-        text-shadow: 5px 5px 0px #9ad3de; }
-    /* line 24, /Users/jakeryan/Documents/torey/scss/_home.scss */
-    #hero > .row h3 {
-      color: #fff; }
-      /* line 26, /Users/jakeryan/Documents/torey/scss/_home.scss */
-      #hero > .row h3 small {
-        color: #f9f9f9; }
-  /* line 32, /Users/jakeryan/Documents/torey/scss/_home.scss */
-  #hero #overlay {
-    position: absolute;
-    background-size: cover;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    background: rgba(137, 189, 211, 0.9);
-    background: -webkit-gradient(left top, right bottom, color-stop(30%, rgba(201, 201, 201, 0.9)), color-stop(30%, rgba(137, 189, 211, 0.9)), color-stop(31%, rgba(137, 189, 211, 0.9)));
-    background: -webkit-linear-gradient(-45deg, rgba(201, 201, 201, 0.9) 30%, rgba(137, 189, 211, 0.9) 30%, rgba(137, 189, 211, 0.9) 31%);
-    background: -webkit-linear-gradient(315deg, rgba(201, 201, 201, 0.9) 30%, rgba(137, 189, 211, 0.9) 30%, rgba(137, 189, 211, 0.9) 31%);
-    background: linear-gradient(135deg, rgba(201, 201, 201, 0.9) 30%, rgba(137, 189, 211, 0.9) 30%, rgba(137, 189, 211, 0.9) 31%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#9ad3de', GradientType=1 ); }
-  /* line 61, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    /* line 11, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    #hero > .row .title {
+      padding: 1rem; }
+      /* line 13, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      #hero > .row .title h1 {
+        color: #fff;
+        font-weight: 900;
+        -webkit-transition: 1s ease-in-out;
+        transition: 1s ease-in-out;
+        font-size: 7rem;
+        line-height: 1; }
+        /* line 19, /Users/jakeryan/Documents/torey/scss/_home.scss */
+        #hero > .row .title h1.shadow {
+          text-shadow: 5px 5px 0px #b56969; }
+      /* line 23, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      #hero > .row .title h3 {
+        color: #fff; }
+        /* line 25, /Users/jakeryan/Documents/torey/scss/_home.scss */
+        #hero > .row .title h3 small {
+          color: #fff; }
+  /* line 31, /Users/jakeryan/Documents/torey/scss/_home.scss */
   #hero video {
-    position: absolute;
+    position: fixed;
     z-index: 0;
     top: 0;
     left: 0; }
 
-/* line 69, /Users/jakeryan/Documents/torey/scss/_home.scss */
+/* line 39, /Users/jakeryan/Documents/torey/scss/_home.scss */
 #bio {
-  height: 90%;
+  padding: 280px 0;
+  height: auto;
   width: 100%;
   position: relative;
-  background: #c9c9c9;
-  background: -webkit-gradient(left bottom, right top, color-stop(35%, #c9c9c9), color-stop(36%, #c9c9c9), color-stop(43%, #c9c9c9), color-stop(43%, #89bdd3));
-  background: -webkit-linear-gradient(45deg, #c9c9c9 35%, #c9c9c9 36%, #c9c9c9 43%, #89bdd3 43%);
-  background: linear-gradient(45deg, #c9c9c9 35%, #c9c9c9 36%, #c9c9c9 43%, #89bdd3 43%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c9c9c9', endColorstr='#89bdd3', GradientType=1 ); }
+  background: #b56969;
+  background: -webkit-gradient(left bottom, right top, color-stop(35%, #b56969), color-stop(36%, #b56969), color-stop(43%, #b56969), color-stop(43%, #e6cf8b));
+  background: -webkit-linear-gradient(45deg, #b56969 35%, #b56969 36%, #b56969 43%, #e6cf8b 43%);
+  background: linear-gradient(45deg, #b56969 35%, #b56969 36%, #b56969 43%, #e6cf8b 43%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$copper', endColorstr='$secondary-color', GradientType=1 ); }
+  /* line 54, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  #bio > .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+        -ms-flex-align: end;
+            align-items: flex-end; }
+    /* line 57, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    #bio > .row .column, #bio > .row .columns {
+      text-align: center;
+      vertical-align: middle; }
+      /* line 60, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      #bio > .row .column > .row, #bio > .row .columns > .row {
+        margin: 0 auto;
+        cursor: crosshair; }
+        /* line 63, /Users/jakeryan/Documents/torey/scss/_home.scss */
+        #bio > .row .column > .row img, #bio > .row .columns > .row img {
+          max-width: 250px;
+          height: auto; }
+          /* line 66, /Users/jakeryan/Documents/torey/scss/_home.scss */
+          #bio > .row .column > .row img.color, #bio > .row .columns > .row img.color {
+            display: none; }
+      /* line 75, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      #bio > .row .column.about img, #bio > .row .about.columns img {
+        max-width: 300px; }

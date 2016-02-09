@@ -6,4 +6,12 @@ $(document).ready(function() {
   }
   setTimeout(shadow, 900);
 
+  $('#bio .row.pic').hover(function() {
+    $('img.bw', this).hide();
+    $('img.color', this).show();
+  }, function() {
+    $('img.color', this).hide();
+    $('img.bw', this).show();
+  });
+
 });

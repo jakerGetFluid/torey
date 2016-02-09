@@ -13,6 +13,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/Ideas\/Snapshots\/Ideas.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34233,
+		"inputAbbreviatedPath": "\/assets\/Ideas\/Snapshots\/Ideas.jpg",
+		"outputAbbreviatedPath": "\/assets\/Ideas\/Snapshots\/Ideas.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Market\/Snapshots\/Market.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70012,
+		"inputAbbreviatedPath": "\/assets\/Market\/Snapshots\/Market.jpg",
+		"outputAbbreviatedPath": "\/assets\/Market\/Snapshots\/Market.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/Walking-Away\/Snapshots\/Walking-Away.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160669,
+		"inputAbbreviatedPath": "\/assets\/Walking-Away\/Snapshots\/Walking-Away.jpg",
+		"outputAbbreviatedPath": "\/assets\/Walking-Away\/Snapshots\/Walking-Away.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/bower.json": {
 		"fileType": 524288,
 		"ignore": 1,
