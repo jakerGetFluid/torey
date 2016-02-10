@@ -22,8 +22,26 @@
       }
       h3 {
         color: #fff;
-        small {
-          color: #fff;
+        width: 500px;
+        overflow: hidden;
+        animation: type 4s steps(60, end);
+        white-space: nowrap;
+        // &::before {
+        //   display: inline-block;
+        //   content: "[";
+        // }
+        // &::after {
+        //   display: inline-block;
+        //   content: "]";
+        // }
+        @keyframes type {
+          from { width: 0; }
+        }
+        span {
+          animation: blink .9s infinite;
+          @keyframes blink {
+            to { opacity: 0; }
+          }
         }
       }
     }
@@ -57,9 +75,14 @@
     .column {
       text-align: center;
       vertical-align: middle;
-      > .row {
+      cursor: crosshair;
+      &:hover {
+        h3 {
+          font-size: 2.75rem;
+        }
+      }
+      .row.pic {
         margin: 0 auto;
-        cursor: crosshair;
         img {
           max-width: 250px;
           height: auto;
@@ -68,17 +91,32 @@
           }
         }
       }
-      &.specialties {
-
+      .row.title{
+        min-height: 70px;
+        h3 {
+          transition: .2s ease-in-out;
+        }
       }
       &.about {
         img {
-          max-width: 300px;
+          max-width: 275px;
         }
       }
-      &.hobbies {
-
+      &.specialties-copy {
+        display: none;
+        position: absolute;
+        text-align: left;
+      }
+      &.about-copy {
+        display: none;
+        position: absolute;
+        text-align: left;
+      }
+      &.hobbies-copy {
+        display: none;
+        position: absolute;
+        text-align: left;
       }
     }
-  }
+  } //end icons and titles
 }
