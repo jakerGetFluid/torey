@@ -5599,7 +5599,7 @@ table.hover tr:nth-of-type(even):hover {
 @keyframes type {
   from {
     width: 0; } }
-        /* line 40, /Users/jakeryan/Documents/torey/scss/_home.scss */
+        /* line 32, /Users/jakeryan/Documents/torey/scss/_home.scss */
         #hero > .row .title h3 span {
           -webkit-animation: blink .9s infinite;
                   animation: blink .9s infinite; }
@@ -5611,14 +5611,47 @@ table.hover tr:nth-of-type(even):hover {
 @keyframes blink {
   to {
     opacity: 0; } }
-  /* line 49, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  /* line 41, /Users/jakeryan/Documents/torey/scss/_home.scss */
   #hero video {
     position: fixed;
     z-index: 0;
     top: 0;
     left: -35px; }
+  /* line 47, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  #hero .scroll-arrow {
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
+    text-align: center; }
+    /* line 52, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    #hero .scroll-arrow i {
+      color: #e8edf3;
+      position: relative;
+      -webkit-transition: .2s ease-in-out;
+      transition: .2s ease-in-out;
+      -webkit-animation: bounce .7s infinite;
+              animation: bounce .7s infinite; }
 
-/* line 57, /Users/jakeryan/Documents/torey/scss/_home.scss */
+@-webkit-keyframes bounce {
+  0% {
+    bottom: 0px; }
+  75% {
+    bottom: 10px; }
+  100% {
+    bottom: 0px; } }
+
+@keyframes bounce {
+  0% {
+    bottom: 0px; }
+  75% {
+    bottom: 10px; }
+  100% {
+    bottom: 0px; } }
+    /* line 64, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    #hero .scroll-arrow:hover i {
+      font-size: 3.5em; }
+
+/* line 71, /Users/jakeryan/Documents/torey/scss/_home.scss */
 #bio {
   padding: 280px 0;
   height: auto;
@@ -5629,7 +5662,7 @@ table.hover tr:nth-of-type(even):hover {
   background: -webkit-linear-gradient(45deg, #b56969 35%, #b56969 36%, #b56969 43%, #e6cf8b 43%);
   background: linear-gradient(45deg, #b56969 35%, #b56969 36%, #b56969 43%, #e6cf8b 43%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$copper', endColorstr='$secondary-color', GradientType=1 ); }
-  /* line 72, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  /* line 86, /Users/jakeryan/Documents/torey/scss/_home.scss */
   #bio > .row {
     display: -webkit-box;
     display: -webkit-flex;
@@ -5639,46 +5672,146 @@ table.hover tr:nth-of-type(even):hover {
     -webkit-align-items: flex-end;
         -ms-flex-align: end;
             align-items: flex-end; }
-    /* line 75, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    /* line 89, /Users/jakeryan/Documents/torey/scss/_home.scss */
     #bio > .row .column, #bio > .row .columns {
       text-align: center;
       vertical-align: middle;
-      cursor: crosshair; }
-      /* line 80, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      cursor: crosshair;
+      opacity: 1;
+      -webkit-transition: .2s ease-in-out;
+      transition: .2s ease-in-out; }
+      /* line 96, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column:hover h3, #bio > .row .columns:hover h3 {
         font-size: 2.75rem; }
-      /* line 84, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 100, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column .row.pic, #bio > .row .columns .row.pic {
         margin: 0 auto; }
-        /* line 86, /Users/jakeryan/Documents/torey/scss/_home.scss */
+        /* line 102, /Users/jakeryan/Documents/torey/scss/_home.scss */
         #bio > .row .column .row.pic img, #bio > .row .columns .row.pic img {
           max-width: 250px;
           height: auto; }
-          /* line 89, /Users/jakeryan/Documents/torey/scss/_home.scss */
+          /* line 105, /Users/jakeryan/Documents/torey/scss/_home.scss */
           #bio > .row .column .row.pic img.color, #bio > .row .columns .row.pic img.color {
             display: none; }
-      /* line 94, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 110, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column .row.title, #bio > .row .columns .row.title {
         min-height: 70px; }
-        /* line 96, /Users/jakeryan/Documents/torey/scss/_home.scss */
+        /* line 112, /Users/jakeryan/Documents/torey/scss/_home.scss */
         #bio > .row .column .row.title h3, #bio > .row .columns .row.title h3 {
           -webkit-transition: .2s ease-in-out;
-          transition: .2s ease-in-out; }
-      /* line 101, /Users/jakeryan/Documents/torey/scss/_home.scss */
+          transition: .2s ease-in-out;
+          font-weight: 500; }
+      /* line 118, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column.about img, #bio > .row .about.columns img {
         max-width: 275px; }
-      /* line 105, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 122, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column.specialties-copy, #bio > .row .specialties-copy.columns {
         display: none;
         position: absolute;
         text-align: left; }
-      /* line 110, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 127, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column.about-copy, #bio > .row .about-copy.columns {
         display: none;
         position: absolute;
         text-align: left; }
-      /* line 115, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 132, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column.hobbies-copy, #bio > .row .hobbies-copy.columns {
         display: none;
         position: absolute;
         text-align: left; }
+
+/* line 141, /Users/jakeryan/Documents/torey/scss/_home.scss */
+#resume {
+  padding: 120px 0;
+  position: relative;
+  background: url("../assets/sparkler-bg.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top center;
+  text-align: center;
+  text-transform: uppercase; }
+  /* line 150, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  #resume .block {
+    padding: 4rem .9375rem;
+    position: relative;
+    background-image: -webkit-repeating-radial-gradient(center center, rgba(140, 140, 140, 0.5), rgba(140, 140, 140, 0.5) 1px, transparent 1px, transparent 100%);
+    background-image: repeating-radial-gradient(center center, rgba(140, 140, 140, 0.5), rgba(140, 140, 140, 0.5) 1px, transparent 1px, transparent 100%);
+    background-size: 3px 3px;
+    overflow: hidden;
+    box-shadow: 20px 20px 0 10px #b56969;
+    border: 10px solid #e6cf8b;
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px; }
+    /* line 163, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    #resume .block h2 a {
+      position: relative;
+      z-index: 2;
+      -webkit-transition: .2s ease-in-out;
+      transition: .2s ease-in-out;
+      color: #e6cf8b;
+      text-shadow: 1px 1px 0px #5e4b14;
+      font-style: normal;
+      font-weight: 500; }
+    /* line 172, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    #resume .block:hover {
+      box-shadow: 30px 30px 0 15px #b56969; }
+      /* line 176, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      #resume .block:hover::after {
+        left: 30px;
+        color: rgba(232, 237, 243, 0.4); }
+    /* line 181, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    #resume .block::after {
+      position: absolute;
+      content: "\f21d";
+      font-size: 180px;
+      font-family: fontawesome;
+      color: rgba(232, 237, 243, 0.2);
+      display: block;
+      top: 0px;
+      left: -20px;
+      -webkit-transition: .2s ease-in-out;
+      transition: .2s ease-in-out;
+      z-index: 1; }
+
+/* line 196, /Users/jakeryan/Documents/torey/scss/_home.scss */
+footer {
+  background: #22264b;
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, #22264b), color-stop(80%, #22264b), color-stop(80%, #e8edf3), color-stop(100%, #e8edf3));
+  background: -webkit-linear-gradient(-45deg, #22264b 0%, #22264b 80%, #e8edf3 80%, #e8edf3 100%);
+  background: -webkit-linear-gradient(315deg, #22264b 0%, #22264b 80%, #e8edf3 80%, #e8edf3 100%);
+  background: linear-gradient(135deg, #22264b 0%, #22264b 80%, #e8edf3 80%, #e8edf3 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#22264b', endColorstr='#e8edf3', GradientType=1 );
+  width: 100%;
+  padding: 60px 0;
+  position: relative;
+  color: #fff; }
+  /* line 211, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  footer > .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%; }
+    /* line 215, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    footer > .row h3 {
+      color: #fff;
+      font-weight: 900;
+      line-height: 1;
+      text-shadow: 2px 2px 0px #b56969; }
+    /* line 221, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    footer > .row span {
+      margin: 0 4px; }
+      /* line 223, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      footer > .row span .fa {
+        color: #b56969;
+        -webkit-transition: .2s ease-in-out;
+        transition: .2s ease-in-out; }
+      /* line 228, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      footer > .row span:hover .fa {
+        color: #e6cf8b; }

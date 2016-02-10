@@ -1,14 +1,28 @@
 $(document).foundation();
 $(document).ready(function() {
 
+  //title text shadow
   function shadow(){
     $('#hero h1').addClass('shadow');
   }
   setTimeout(shadow, 900);
 
+  //smooth scroll
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
 
   //bio section, on hover, image swap for color
-  $('#bio .row > .column').hover(function() {
+  $('#bio .row > .one').hover(function() {
     $('img.bw', this).hide();
     $('img.color', this).show();
   }, function() {
@@ -17,9 +31,8 @@ $(document).ready(function() {
   });
 
   //bio seciton, on click, fly away not-clicked items, display hidden content
-  $('#bio .row > .column').click(function() {
-    //select copy of selected column
-    $(this).next('.column').fadeIn('400');
-  });
+  // $('#bio .row > .one').click(function() {
+  //   $(this).next('.two').toggleClass('fade-in');
+  // });
 
 });
