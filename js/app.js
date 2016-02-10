@@ -2,10 +2,16 @@ $(document).foundation();
 $(document).ready(function() {
 
   //title text shadow
-  function shadow(){
+  function shadow() {
     $('#hero h1').addClass('shadow');
   }
   setTimeout(shadow, 900);
+
+  //start arrow bounce after delay
+  function bounceStart() {
+    $('.scroll-arrow i').addClass('bounce');
+  }
+  setTimeout(bounceStart, 6000);
 
   //smooth scroll
   $('a[href*="#"]:not([href="#"])').click(function() {
