@@ -35,6 +35,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/PACEdec2015_0090.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.20676e+06,
+		"inputAbbreviatedPath": "\/assets\/PACEdec2015_0090.jpg",
+		"outputAbbreviatedPath": "\/assets\/PACEdec2015_0090.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/sparkler-bg.jpeg": {
 		"fileType": 16384,
 		"ignore": 0,
