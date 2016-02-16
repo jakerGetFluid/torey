@@ -15,7 +15,6 @@
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-in-down.mui-enter {
   -webkit-transform: translateY(-100%);
-      -ms-transform: translateY(-100%);
           transform: translateY(-100%);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -27,13 +26,11 @@
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-in-down.mui-enter.mui-enter-active {
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
           transform: translateY(0); }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-in-left.mui-enter {
   -webkit-transform: translateX(-100%);
-      -ms-transform: translateX(-100%);
           transform: translateX(-100%);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -45,13 +42,11 @@
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-in-left.mui-enter.mui-enter-active {
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
           transform: translateX(0); }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-in-up.mui-enter {
   -webkit-transform: translateY(100%);
-      -ms-transform: translateY(100%);
           transform: translateY(100%);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -63,13 +58,11 @@
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-in-up.mui-enter.mui-enter-active {
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
           transform: translateY(0); }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-in-right.mui-enter {
   -webkit-transform: translateX(100%);
-      -ms-transform: translateX(100%);
           transform: translateX(100%);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -81,13 +74,11 @@
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-in-right.mui-enter.mui-enter-active {
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
           transform: translateX(0); }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-out-down.mui-leave {
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
           transform: translateY(0);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -99,13 +90,11 @@
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-out-down.mui-leave.mui-leave-active {
   -webkit-transform: translateY(100%);
-      -ms-transform: translateY(100%);
           transform: translateY(100%); }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-out-right.mui-leave {
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
           transform: translateX(0);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -117,13 +106,11 @@
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-out-right.mui-leave.mui-leave-active {
   -webkit-transform: translateX(100%);
-      -ms-transform: translateX(100%);
           transform: translateX(100%); }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-out-up.mui-leave {
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
           transform: translateY(0);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -135,13 +122,11 @@
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-out-up.mui-leave.mui-leave-active {
   -webkit-transform: translateY(-100%);
-      -ms-transform: translateY(-100%);
           transform: translateY(-100%); }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-out-left.mui-leave {
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
           transform: translateX(0);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -153,7 +138,6 @@
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-out-left.mui-leave.mui-leave-active {
   -webkit-transform: translateX(-100%);
-      -ms-transform: translateX(-100%);
           transform: translateX(-100%); }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
@@ -181,7 +165,6 @@
   -webkit-transform: perspective(2000px) rotateX(-90deg);
           transform: perspective(2000px) rotateX(-90deg);
   -webkit-transform-origin: top;
-      -ms-transform-origin: top;
           transform-origin: top;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -200,7 +183,6 @@
   -webkit-transform: perspective(2000px) rotateY(-90deg);
           transform: perspective(2000px) rotateY(-90deg);
   -webkit-transform-origin: right;
-      -ms-transform-origin: right;
           transform-origin: right;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -219,7 +201,6 @@
   -webkit-transform: perspective(2000px) rotateX(90deg);
           transform: perspective(2000px) rotateX(90deg);
   -webkit-transform-origin: bottom;
-      -ms-transform-origin: bottom;
           transform-origin: bottom;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -238,7 +219,6 @@
   -webkit-transform: perspective(2000px) rotateY(90deg);
           transform: perspective(2000px) rotateY(90deg);
   -webkit-transform-origin: left;
-      -ms-transform-origin: left;
           transform-origin: left;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -257,7 +237,6 @@
   -webkit-transform: perspective(2000px) rotateX(-90deg);
           transform: perspective(2000px) rotateX(-90deg);
   -webkit-transform-origin: center;
-      -ms-transform-origin: center;
           transform-origin: center;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -276,7 +255,6 @@
   -webkit-transform: perspective(2000px) rotateY(-90deg);
           transform: perspective(2000px) rotateY(-90deg);
   -webkit-transform-origin: center;
-      -ms-transform-origin: center;
           transform-origin: center;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -295,7 +273,6 @@
   -webkit-transform: perspective(2000px) rotate(0deg);
           transform: perspective(2000px) rotate(0deg);
   -webkit-transform-origin: top;
-      -ms-transform-origin: top;
           transform-origin: top;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -314,7 +291,6 @@
   -webkit-transform: perspective(2000px) rotate(0deg);
           transform: perspective(2000px) rotate(0deg);
   -webkit-transform-origin: right;
-      -ms-transform-origin: right;
           transform-origin: right;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -333,7 +309,6 @@
   -webkit-transform: perspective(2000px) rotate(0deg);
           transform: perspective(2000px) rotate(0deg);
   -webkit-transform-origin: bottom;
-      -ms-transform-origin: bottom;
           transform-origin: bottom;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -352,7 +327,6 @@
   -webkit-transform: perspective(2000px) rotate(0deg);
           transform: perspective(2000px) rotate(0deg);
   -webkit-transform-origin: left;
-      -ms-transform-origin: left;
           transform-origin: left;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -371,7 +345,6 @@
   -webkit-transform: perspective(2000px) rotate(0deg);
           transform: perspective(2000px) rotate(0deg);
   -webkit-transform-origin: center;
-      -ms-transform-origin: center;
           transform-origin: center;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -390,7 +363,6 @@
   -webkit-transform: perspective(2000px) rotate(0deg);
           transform: perspective(2000px) rotate(0deg);
   -webkit-transform-origin: center;
-      -ms-transform-origin: center;
           transform-origin: center;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -407,7 +379,6 @@
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .scale-in-up.mui-enter {
   -webkit-transform: scale(0.5);
-      -ms-transform: scale(0.5);
           transform: scale(0.5);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -418,14 +389,12 @@
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .scale-in-up.mui-enter.mui-enter-active {
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
           transform: scale(1);
   opacity: 1; }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .scale-in-down.mui-enter {
   -webkit-transform: scale(1.5);
-      -ms-transform: scale(1.5);
           transform: scale(1.5);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -436,14 +405,12 @@
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .scale-in-down.mui-enter.mui-enter-active {
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
           transform: scale(1);
   opacity: 1; }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .scale-out-up.mui-leave {
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
           transform: scale(1);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -454,14 +421,12 @@
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .scale-out-up.mui-leave.mui-leave-active {
   -webkit-transform: scale(1.5);
-      -ms-transform: scale(1.5);
           transform: scale(1.5);
   opacity: 0; }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .scale-out-down.mui-leave {
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
           transform: scale(1);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -472,14 +437,12 @@
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .scale-out-down.mui-leave.mui-leave-active {
   -webkit-transform: scale(0.5);
-      -ms-transform: scale(0.5);
           transform: scale(0.5);
   opacity: 0; }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .spin-in.mui-enter {
   -webkit-transform: rotate(-0.75turn);
-      -ms-transform: rotate(-0.75turn);
           transform: rotate(-0.75turn);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -490,14 +453,12 @@
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .spin-in.mui-enter.mui-enter-active {
   -webkit-transform: rotate(0);
-      -ms-transform: rotate(0);
           transform: rotate(0);
   opacity: 1; }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .spin-out.mui-leave {
   -webkit-transform: rotate(0);
-      -ms-transform: rotate(0);
           transform: rotate(0);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -508,14 +469,12 @@
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .spin-out.mui-leave.mui-leave-active {
   -webkit-transform: rotate(0.75turn);
-      -ms-transform: rotate(0.75turn);
           transform: rotate(0.75turn);
   opacity: 0; }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .spin-in-ccw.mui-enter {
   -webkit-transform: rotate(0.75turn);
-      -ms-transform: rotate(0.75turn);
           transform: rotate(0.75turn);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -526,14 +485,12 @@
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .spin-in-ccw.mui-enter.mui-enter-active {
   -webkit-transform: rotate(0);
-      -ms-transform: rotate(0);
           transform: rotate(0);
   opacity: 1; }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .spin-out-ccw.mui-leave {
   -webkit-transform: rotate(0);
-      -ms-transform: rotate(0);
           transform: rotate(0);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -544,7 +501,6 @@
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .spin-out-ccw.mui-leave.mui-leave-active {
   -webkit-transform: rotate(-0.75turn);
-      -ms-transform: rotate(-0.75turn);
           transform: rotate(-0.75turn);
   opacity: 0; }
 
@@ -3159,10 +3115,8 @@ select {
 /* line 27, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_accordion-menu.scss */
 .is-accordion-submenu-parent[aria-expanded='true'] > a::after {
   -webkit-transform-origin: 50% 50%;
-      -ms-transform-origin: 50% 50%;
           transform-origin: 50% 50%;
   -webkit-transform: scaleY(-1);
-      -ms-transform: scaleY(-1);
           transform: scaleY(-1); }
 
 /* line 40, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_badge.scss */
@@ -3412,12 +3366,10 @@ select {
     z-index: 1;
     display: block;
     -webkit-transform: translateX(-100%);
-        -ms-transform: translateX(-100%);
             transform: translateX(-100%); }
   /* line 49, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_drilldown.scss */
   .is-drilldown-submenu.is-closing {
     -webkit-transform: translateX(100%);
-        -ms-transform: translateX(100%);
             transform: translateX(100%); }
 
 /* line 55, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_drilldown.scss */
@@ -3844,7 +3796,6 @@ body {
   max-height: 100%;
   overflow-y: auto;
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
           transform: translateX(0); }
   /* line 160, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/util/_mixins.scss */
   [data-whatinput='mouse'] .off-canvas {
@@ -3857,7 +3808,6 @@ body {
     /* line 122, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_off-canvas.scss */
     .is-open-left {
       -webkit-transform: translateX(250px);
-          -ms-transform: translateX(250px);
               transform: translateX(250px); }
   /* line 158, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_off-canvas.scss */
   .off-canvas.position-right {
@@ -3867,7 +3817,6 @@ body {
     /* line 122, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_off-canvas.scss */
     .is-open-right {
       -webkit-transform: translateX(-250px);
-          -ms-transform: translateX(-250px);
               transform: translateX(-250px); }
 
 @media screen and (min-width: 40em) {
@@ -3951,7 +3900,6 @@ body {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   z-index: 10;
   padding: 1rem;
@@ -4100,7 +4048,6 @@ body {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   position: absolute;
   margin: 0;
@@ -4145,7 +4092,6 @@ body {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%);
   position: absolute;
   left: 0;
@@ -4183,7 +4129,6 @@ body {
   height: 12.5rem;
   margin: 0 1.25rem;
   -webkit-transform: scale(1, -1);
-      -ms-transform: scale(1, -1);
           transform: scale(1, -1); }
   /* line 116, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_slider.scss */
   .slider.vertical .slider-fill {
@@ -4198,7 +4143,6 @@ body {
     width: 1.4rem;
     height: 1.4rem;
     -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
             transform: translateX(-50%); }
 
 /* line 6, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_sticky.scss */
@@ -4378,7 +4322,6 @@ body.is-reveal-open {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
           transform: translateY(-50%); }
 
 /* line 209, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_switch.scss */
@@ -4714,7 +4657,6 @@ table.hover tr:nth-of-type(even):hover {
     position: absolute;
     left: 50%;
     -webkit-transform: translateX(-50%);
-        -ms-transform: translateX(-50%);
             transform: translateX(-50%); }
   /* line 76, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_tooltip.scss */
   .tooltip.top::before {
@@ -4742,7 +4684,6 @@ table.hover tr:nth-of-type(even):hover {
     left: 100%;
     top: 50%;
     -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
             transform: translateY(-50%); }
   /* line 90, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_tooltip.scss */
   .tooltip.right::before {
@@ -4759,7 +4700,6 @@ table.hover tr:nth-of-type(even):hover {
     right: 100%;
     top: 50%;
     -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
             transform: translateY(-50%); }
 
 /* line 64, /Users/jakeryan/Documents/torey/bower_components/foundation-sites/scss/components/_top-bar.scss */
@@ -4844,7 +4784,6 @@ table.hover tr:nth-of-type(even):hover {
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-in-down.mui-enter {
   -webkit-transform: translateY(-100%);
-      -ms-transform: translateY(-100%);
           transform: translateY(-100%);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -4856,13 +4795,11 @@ table.hover tr:nth-of-type(even):hover {
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-in-down.mui-enter.mui-enter-active {
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
           transform: translateY(0); }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-in-left.mui-enter {
   -webkit-transform: translateX(-100%);
-      -ms-transform: translateX(-100%);
           transform: translateX(-100%);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -4874,13 +4811,11 @@ table.hover tr:nth-of-type(even):hover {
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-in-left.mui-enter.mui-enter-active {
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
           transform: translateX(0); }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-in-up.mui-enter {
   -webkit-transform: translateY(100%);
-      -ms-transform: translateY(100%);
           transform: translateY(100%);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -4892,13 +4827,11 @@ table.hover tr:nth-of-type(even):hover {
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-in-up.mui-enter.mui-enter-active {
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
           transform: translateY(0); }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-in-right.mui-enter {
   -webkit-transform: translateX(100%);
-      -ms-transform: translateX(100%);
           transform: translateX(100%);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -4910,13 +4843,11 @@ table.hover tr:nth-of-type(even):hover {
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-in-right.mui-enter.mui-enter-active {
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
           transform: translateX(0); }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-out-down.mui-leave {
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
           transform: translateY(0);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -4928,13 +4859,11 @@ table.hover tr:nth-of-type(even):hover {
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-out-down.mui-leave.mui-leave-active {
   -webkit-transform: translateY(100%);
-      -ms-transform: translateY(100%);
           transform: translateY(100%); }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-out-right.mui-leave {
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
           transform: translateX(0);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -4946,13 +4875,11 @@ table.hover tr:nth-of-type(even):hover {
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-out-right.mui-leave.mui-leave-active {
   -webkit-transform: translateX(100%);
-      -ms-transform: translateX(100%);
           transform: translateX(100%); }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-out-up.mui-leave {
   -webkit-transform: translateY(0);
-      -ms-transform: translateY(0);
           transform: translateY(0);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -4964,13 +4891,11 @@ table.hover tr:nth-of-type(even):hover {
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-out-up.mui-leave.mui-leave-active {
   -webkit-transform: translateY(-100%);
-      -ms-transform: translateY(-100%);
           transform: translateY(-100%); }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-out-left.mui-leave {
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
           transform: translateX(0);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -4982,7 +4907,6 @@ table.hover tr:nth-of-type(even):hover {
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .slide-out-left.mui-leave.mui-leave-active {
   -webkit-transform: translateX(-100%);
-      -ms-transform: translateX(-100%);
           transform: translateX(-100%); }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
@@ -5010,7 +4934,6 @@ table.hover tr:nth-of-type(even):hover {
   -webkit-transform: perspective(2000px) rotateX(-90deg);
           transform: perspective(2000px) rotateX(-90deg);
   -webkit-transform-origin: top;
-      -ms-transform-origin: top;
           transform-origin: top;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5029,7 +4952,6 @@ table.hover tr:nth-of-type(even):hover {
   -webkit-transform: perspective(2000px) rotateY(-90deg);
           transform: perspective(2000px) rotateY(-90deg);
   -webkit-transform-origin: right;
-      -ms-transform-origin: right;
           transform-origin: right;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5048,7 +4970,6 @@ table.hover tr:nth-of-type(even):hover {
   -webkit-transform: perspective(2000px) rotateX(90deg);
           transform: perspective(2000px) rotateX(90deg);
   -webkit-transform-origin: bottom;
-      -ms-transform-origin: bottom;
           transform-origin: bottom;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5067,7 +4988,6 @@ table.hover tr:nth-of-type(even):hover {
   -webkit-transform: perspective(2000px) rotateY(90deg);
           transform: perspective(2000px) rotateY(90deg);
   -webkit-transform-origin: left;
-      -ms-transform-origin: left;
           transform-origin: left;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5086,7 +5006,6 @@ table.hover tr:nth-of-type(even):hover {
   -webkit-transform: perspective(2000px) rotateX(-90deg);
           transform: perspective(2000px) rotateX(-90deg);
   -webkit-transform-origin: center;
-      -ms-transform-origin: center;
           transform-origin: center;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5105,7 +5024,6 @@ table.hover tr:nth-of-type(even):hover {
   -webkit-transform: perspective(2000px) rotateY(-90deg);
           transform: perspective(2000px) rotateY(-90deg);
   -webkit-transform-origin: center;
-      -ms-transform-origin: center;
           transform-origin: center;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5124,7 +5042,6 @@ table.hover tr:nth-of-type(even):hover {
   -webkit-transform: perspective(2000px) rotate(0deg);
           transform: perspective(2000px) rotate(0deg);
   -webkit-transform-origin: top;
-      -ms-transform-origin: top;
           transform-origin: top;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5143,7 +5060,6 @@ table.hover tr:nth-of-type(even):hover {
   -webkit-transform: perspective(2000px) rotate(0deg);
           transform: perspective(2000px) rotate(0deg);
   -webkit-transform-origin: right;
-      -ms-transform-origin: right;
           transform-origin: right;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5162,7 +5078,6 @@ table.hover tr:nth-of-type(even):hover {
   -webkit-transform: perspective(2000px) rotate(0deg);
           transform: perspective(2000px) rotate(0deg);
   -webkit-transform-origin: bottom;
-      -ms-transform-origin: bottom;
           transform-origin: bottom;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5181,7 +5096,6 @@ table.hover tr:nth-of-type(even):hover {
   -webkit-transform: perspective(2000px) rotate(0deg);
           transform: perspective(2000px) rotate(0deg);
   -webkit-transform-origin: left;
-      -ms-transform-origin: left;
           transform-origin: left;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5200,7 +5114,6 @@ table.hover tr:nth-of-type(even):hover {
   -webkit-transform: perspective(2000px) rotate(0deg);
           transform: perspective(2000px) rotate(0deg);
   -webkit-transform-origin: center;
-      -ms-transform-origin: center;
           transform-origin: center;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5219,7 +5132,6 @@ table.hover tr:nth-of-type(even):hover {
   -webkit-transform: perspective(2000px) rotate(0deg);
           transform: perspective(2000px) rotate(0deg);
   -webkit-transform-origin: center;
-      -ms-transform-origin: center;
           transform-origin: center;
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5236,7 +5148,6 @@ table.hover tr:nth-of-type(even):hover {
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .scale-in-up.mui-enter {
   -webkit-transform: scale(0.5);
-      -ms-transform: scale(0.5);
           transform: scale(0.5);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5247,14 +5158,12 @@ table.hover tr:nth-of-type(even):hover {
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .scale-in-up.mui-enter.mui-enter-active {
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
           transform: scale(1);
   opacity: 1; }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .scale-in-down.mui-enter {
   -webkit-transform: scale(1.5);
-      -ms-transform: scale(1.5);
           transform: scale(1.5);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5265,14 +5174,12 @@ table.hover tr:nth-of-type(even):hover {
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .scale-in-down.mui-enter.mui-enter-active {
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
           transform: scale(1);
   opacity: 1; }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .scale-out-up.mui-leave {
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
           transform: scale(1);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5283,14 +5190,12 @@ table.hover tr:nth-of-type(even):hover {
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .scale-out-up.mui-leave.mui-leave-active {
   -webkit-transform: scale(1.5);
-      -ms-transform: scale(1.5);
           transform: scale(1.5);
   opacity: 0; }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .scale-out-down.mui-leave {
   -webkit-transform: scale(1);
-      -ms-transform: scale(1);
           transform: scale(1);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5301,14 +5206,12 @@ table.hover tr:nth-of-type(even):hover {
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .scale-out-down.mui-leave.mui-leave-active {
   -webkit-transform: scale(0.5);
-      -ms-transform: scale(0.5);
           transform: scale(0.5);
   opacity: 0; }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .spin-in.mui-enter {
   -webkit-transform: rotate(-0.75turn);
-      -ms-transform: rotate(-0.75turn);
           transform: rotate(-0.75turn);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5319,14 +5222,12 @@ table.hover tr:nth-of-type(even):hover {
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .spin-in.mui-enter.mui-enter-active {
   -webkit-transform: rotate(0);
-      -ms-transform: rotate(0);
           transform: rotate(0);
   opacity: 1; }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .spin-out.mui-leave {
   -webkit-transform: rotate(0);
-      -ms-transform: rotate(0);
           transform: rotate(0);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5337,14 +5238,12 @@ table.hover tr:nth-of-type(even):hover {
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .spin-out.mui-leave.mui-leave-active {
   -webkit-transform: rotate(0.75turn);
-      -ms-transform: rotate(0.75turn);
           transform: rotate(0.75turn);
   opacity: 0; }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .spin-in-ccw.mui-enter {
   -webkit-transform: rotate(0.75turn);
-      -ms-transform: rotate(0.75turn);
           transform: rotate(0.75turn);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5355,14 +5254,12 @@ table.hover tr:nth-of-type(even):hover {
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .spin-in-ccw.mui-enter.mui-enter-active {
   -webkit-transform: rotate(0);
-      -ms-transform: rotate(0);
           transform: rotate(0);
   opacity: 1; }
 
 /* line 22, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .spin-out-ccw.mui-leave {
   -webkit-transform: rotate(0);
-      -ms-transform: rotate(0);
           transform: rotate(0);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, -webkit-transform;
@@ -5373,7 +5270,6 @@ table.hover tr:nth-of-type(even):hover {
 /* line 34, /Users/jakeryan/Documents/torey/bower_components/motion-ui/src/util/_transition.scss */
 .spin-out-ccw.mui-leave.mui-leave-active {
   -webkit-transform: rotate(-0.75turn);
-      -ms-transform: rotate(-0.75turn);
           transform: rotate(-0.75turn);
   opacity: 0; }
 
@@ -5558,21 +5454,60 @@ table.hover tr:nth-of-type(even):hover {
           animation-delay: 700ms !important; }
 
 /* line 1, /Users/jakeryan/Documents/torey/scss/_home.scss */
+#gate {
+  position: fixed;
+  z-index: 999;
+  top: 0px;
+  left: 0px;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: #22264b;
+  color: #e8edf3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+  text-align: center; }
+  /* line 15, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  #gate i {
+    -webkit-animation: rotater 1s ease-in-out infinite;
+            animation: rotater 1s ease-in-out infinite;
+    margin: 0 auto; }
+
+@-webkit-keyframes rotater {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes rotater {
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+/* line 24, /Users/jakeryan/Documents/torey/scss/_home.scss */
 #hero {
   padding: 60px 0;
-  height: 105%;
+  height: 100vh;
   width: 100%;
   text-align: left;
   position: relative;
   overflow: hidden; }
-  /* line 8, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  /* line 31, /Users/jakeryan/Documents/torey/scss/_home.scss */
   #hero > .row {
     z-index: 2;
     position: relative; }
-    /* line 11, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    /* line 34, /Users/jakeryan/Documents/torey/scss/_home.scss */
     #hero > .row .title {
       padding: 1rem; }
-      /* line 13, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 36, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #hero > .row .title h1 {
         color: #fff;
         font-weight: 900;
@@ -5580,16 +5515,18 @@ table.hover tr:nth-of-type(even):hover {
         transition: 1s ease-in-out;
         font-size: 7rem;
         line-height: 1; }
-        /* line 19, /Users/jakeryan/Documents/torey/scss/_home.scss */
+        /* line 42, /Users/jakeryan/Documents/torey/scss/_home.scss */
         #hero > .row .title h1.shadow {
           text-shadow: 5px 5px 0px #b56969; }
-      /* line 23, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 46, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #hero > .row .title h3 {
         color: #fff;
         width: 500px;
         overflow: hidden;
         -webkit-animation: type 4s steps(60, end);
                 animation: type 4s steps(60, end);
+        -webkit-animation-delay: 3s;
+                animation-delay: 3s;
         white-space: nowrap; }
 
 @-webkit-keyframes type {
@@ -5599,7 +5536,7 @@ table.hover tr:nth-of-type(even):hover {
 @keyframes type {
   from {
     width: 0; } }
-        /* line 32, /Users/jakeryan/Documents/torey/scss/_home.scss */
+        /* line 56, /Users/jakeryan/Documents/torey/scss/_home.scss */
         #hero > .row .title h3 span {
           -webkit-animation: blink .9s infinite;
                   animation: blink .9s infinite; }
@@ -5611,26 +5548,26 @@ table.hover tr:nth-of-type(even):hover {
 @keyframes blink {
   to {
     opacity: 0; } }
-  /* line 41, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  /* line 65, /Users/jakeryan/Documents/torey/scss/_home.scss */
   #hero video {
     position: fixed;
     z-index: 0;
     top: 0;
     left: -35px;
     min-width: 105%; }
-  /* line 48, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  /* line 72, /Users/jakeryan/Documents/torey/scss/_home.scss */
   #hero .scroll-arrow {
     position: absolute;
     bottom: 10%;
     width: 100%;
     text-align: center; }
-    /* line 53, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    /* line 77, /Users/jakeryan/Documents/torey/scss/_home.scss */
     #hero .scroll-arrow i {
       color: #e8edf3;
       position: relative;
       -webkit-transition: .2s ease-in-out;
       transition: .2s ease-in-out; }
-      /* line 57, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 81, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #hero .scroll-arrow i.bounce {
         -webkit-animation: bounce .7s infinite;
                 animation: bounce .7s infinite; }
@@ -5650,11 +5587,11 @@ table.hover tr:nth-of-type(even):hover {
     bottom: 10px; }
   100% {
     bottom: 0px; } }
-    /* line 67, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    /* line 91, /Users/jakeryan/Documents/torey/scss/_home.scss */
     #hero .scroll-arrow:hover i {
       font-size: 3.5em; }
 
-/* line 74, /Users/jakeryan/Documents/torey/scss/_home.scss */
+/* line 98, /Users/jakeryan/Documents/torey/scss/_home.scss */
 #bio {
   padding: 280px 0;
   height: auto;
@@ -5665,7 +5602,7 @@ table.hover tr:nth-of-type(even):hover {
   background: -webkit-linear-gradient(45deg, #b56969 35%, #b56969 36%, #b56969 43%, #e6cf8b 43%);
   background: linear-gradient(45deg, #b56969 35%, #b56969 36%, #b56969 43%, #e6cf8b 43%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$copper', endColorstr='$secondary-color', GradientType=1 ); }
-  /* line 89, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  /* line 113, /Users/jakeryan/Documents/torey/scss/_home.scss */
   #bio > .row {
     display: -webkit-box;
     display: -webkit-flex;
@@ -5675,7 +5612,7 @@ table.hover tr:nth-of-type(even):hover {
     -webkit-align-items: flex-end;
         -ms-flex-align: end;
             align-items: flex-end; }
-    /* line 92, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    /* line 116, /Users/jakeryan/Documents/torey/scss/_home.scss */
     #bio > .row .column, #bio > .row .columns {
       text-align: center;
       vertical-align: middle;
@@ -5683,57 +5620,57 @@ table.hover tr:nth-of-type(even):hover {
       opacity: 1;
       -webkit-transition: .2s ease-in-out;
       transition: .2s ease-in-out; }
-      /* line 99, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 123, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column:hover h3, #bio > .row .columns:hover h3 {
         font-size: 2.75rem; }
-      /* line 103, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 127, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column .row.pic, #bio > .row .columns .row.pic {
         margin: 0 auto; }
-        /* line 105, /Users/jakeryan/Documents/torey/scss/_home.scss */
+        /* line 129, /Users/jakeryan/Documents/torey/scss/_home.scss */
         #bio > .row .column .row.pic img, #bio > .row .columns .row.pic img {
-          max-width: 250px;
+          max-width: 200px;
           height: auto; }
-          /* line 108, /Users/jakeryan/Documents/torey/scss/_home.scss */
+          /* line 132, /Users/jakeryan/Documents/torey/scss/_home.scss */
           #bio > .row .column .row.pic img.color, #bio > .row .columns .row.pic img.color {
             display: none; }
-      /* line 113, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 137, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column .row.title, #bio > .row .columns .row.title {
         min-height: 70px; }
-        /* line 115, /Users/jakeryan/Documents/torey/scss/_home.scss */
+        /* line 139, /Users/jakeryan/Documents/torey/scss/_home.scss */
         #bio > .row .column .row.title h3, #bio > .row .columns .row.title h3 {
           -webkit-transition: .2s ease-in-out;
           transition: .2s ease-in-out;
           font-weight: 500; }
-      /* line 121, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 145, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column.about img, #bio > .row .about.columns img {
         max-width: 275px; }
-      /* line 125, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 149, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column.specialties-copy, #bio > .row .specialties-copy.columns {
         display: none;
         position: absolute;
         text-align: left; }
-      /* line 130, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 154, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column.about-copy, #bio > .row .about-copy.columns {
         display: none;
         position: absolute;
         text-align: left; }
-      /* line 135, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 159, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column.hobbies-copy, #bio > .row .hobbies-copy.columns {
         display: none;
         position: absolute;
         text-align: left; }
 
-/* line 144, /Users/jakeryan/Documents/torey/scss/_home.scss */
+/* line 168, /Users/jakeryan/Documents/torey/scss/_home.scss */
 #resume {
   padding: 120px 0;
   position: relative;
   background: url("../assets/PACEdec2015_0090.jpg");
   background-attachment: fixed;
   background-size: cover;
-  background-position: top center;
+  background-position: center center;
   text-align: center;
   text-transform: uppercase; }
-  /* line 153, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  /* line 177, /Users/jakeryan/Documents/torey/scss/_home.scss */
   #resume .block {
     padding: 4rem .9375rem;
     position: relative;
@@ -5747,7 +5684,7 @@ table.hover tr:nth-of-type(even):hover {
     transition: .2s ease-in-out;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px; }
-    /* line 166, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    /* line 190, /Users/jakeryan/Documents/torey/scss/_home.scss */
     #resume .block h2 a {
       position: relative;
       z-index: 2;
@@ -5757,14 +5694,14 @@ table.hover tr:nth-of-type(even):hover {
       text-shadow: 1px 1px 0px #5e4b14;
       font-style: normal;
       font-weight: 500; }
-    /* line 175, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    /* line 199, /Users/jakeryan/Documents/torey/scss/_home.scss */
     #resume .block:hover {
       box-shadow: 30px 30px 0 15px #b56969; }
-      /* line 179, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 203, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #resume .block:hover::after {
         left: 30px;
         color: rgba(232, 237, 243, 0.4); }
-    /* line 184, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    /* line 208, /Users/jakeryan/Documents/torey/scss/_home.scss */
     #resume .block::after {
       position: absolute;
       content: "\f21d";
@@ -5778,7 +5715,7 @@ table.hover tr:nth-of-type(even):hover {
       transition: .2s ease-in-out;
       z-index: 1; }
 
-/* line 199, /Users/jakeryan/Documents/torey/scss/_home.scss */
+/* line 223, /Users/jakeryan/Documents/torey/scss/_home.scss */
 footer {
   background: #22264b;
   background: -webkit-gradient(left top, right bottom, color-stop(0%, #22264b), color-stop(80%, #22264b), color-stop(80%, #e8edf3), color-stop(100%, #e8edf3));
@@ -5790,7 +5727,7 @@ footer {
   padding: 60px 0;
   position: relative;
   color: #fff; }
-  /* line 214, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  /* line 238, /Users/jakeryan/Documents/torey/scss/_home.scss */
   footer > .row {
     display: -webkit-box;
     display: -webkit-flex;
@@ -5801,20 +5738,20 @@ footer {
         -ms-flex-align: center;
             align-items: center;
     width: 100%; }
-    /* line 218, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    /* line 242, /Users/jakeryan/Documents/torey/scss/_home.scss */
     footer > .row h3 {
       color: #fff;
       font-weight: 900;
       line-height: 1;
       text-shadow: 2px 2px 0px #b56969; }
-    /* line 224, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    /* line 248, /Users/jakeryan/Documents/torey/scss/_home.scss */
     footer > .row span {
       margin: 0 4px; }
-      /* line 226, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 250, /Users/jakeryan/Documents/torey/scss/_home.scss */
       footer > .row span .fa {
         color: #b56969;
         -webkit-transition: .2s ease-in-out;
         transition: .2s ease-in-out; }
-      /* line 231, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 255, /Users/jakeryan/Documents/torey/scss/_home.scss */
       footer > .row span:hover .fa {
         color: #e6cf8b; }

@@ -1,17 +1,25 @@
 $(document).foundation();
 $(document).ready(function() {
 
+  function gateSlide() {
+    $('#gate').slideUp(400);
+    // $('main').fadeIn('fast', function() {
+    //
+    // });
+  }
+  setTimeout(gateSlide, 3000);
+
   //title text shadow
   function shadow() {
     $('#hero h1').addClass('shadow');
   }
-  setTimeout(shadow, 900);
+  setTimeout(shadow, 3900);
 
   //start arrow bounce after delay
   function bounceStart() {
     $('.scroll-arrow i').addClass('bounce');
   }
-  setTimeout(bounceStart, 6000);
+  setTimeout(bounceStart, 9000);
 
   //smooth scroll
   $('a[href*="#"]:not([href="#"])').click(function() {

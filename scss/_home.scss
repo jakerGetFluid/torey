@@ -1,6 +1,29 @@
+#gate {
+  position: fixed;
+  z-index: 999;
+  top: 0px;
+  left: 0px;
+  display: block;
+  height: 100%;
+  width: 100%;
+  background: $dark-blue;
+  color: $primary-color;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  i {
+    animation: rotater 1s ease-in-out infinite;
+    margin: 0 auto;
+
+    @keyframes rotater {
+      to { transform: rotate(360deg); }
+    }
+  }
+}
 #hero {
   padding: 60px 0;
-  height: 105%;
+  height: 100vh;
   width: 100%;
   text-align: left;
   position: relative;
@@ -25,6 +48,7 @@
         width: 500px;
         overflow: hidden;
         animation: type 4s steps(60, end);
+        animation-delay: 3s;
         white-space: nowrap;
         @keyframes type {
           from { width: 0; }
@@ -103,7 +127,7 @@
       .row.pic {
         margin: 0 auto;
         img {
-          max-width: 250px;
+          max-width: 200px;
           height: auto;
           &.color {
             display: none;
@@ -147,7 +171,7 @@
   background: url('../assets/PACEdec2015_0090.jpg');
   background-attachment: fixed;
   background-size: cover;
-  background-position: top center;
+  background-position: center center;
   text-align: center;
   text-transform: uppercase;
   .block {
