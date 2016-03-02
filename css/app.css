@@ -5593,7 +5593,7 @@ table.hover tr:nth-of-type(even):hover {
 
 /* line 96, /Users/jakeryan/Documents/torey/scss/_home.scss */
 #bio {
-  padding: 280px 0;
+  padding: 320px 0 40px;
   height: auto;
   width: 100%;
   position: relative;
@@ -5608,10 +5608,10 @@ table.hover tr:nth-of-type(even):hover {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: end;
-    -webkit-align-items: flex-end;
-        -ms-flex-align: end;
-            align-items: flex-end; }
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start; }
     /* line 114, /Users/jakeryan/Documents/torey/scss/_home.scss */
     #bio > .row .column, #bio > .row .columns {
       text-align: center;
@@ -5624,43 +5624,54 @@ table.hover tr:nth-of-type(even):hover {
       #bio > .row .column:hover h3, #bio > .row .columns:hover h3 {
         font-size: 2.75rem; }
       /* line 125, /Users/jakeryan/Documents/torey/scss/_home.scss */
-      #bio > .row .column .row.pic, #bio > .row .columns .row.pic {
+      #bio > .row .column .row, #bio > .row .columns .row {
         margin: 0 auto; }
-        /* line 127, /Users/jakeryan/Documents/torey/scss/_home.scss */
-        #bio > .row .column .row.pic img, #bio > .row .columns .row.pic img {
-          max-width: 200px;
-          height: auto; }
-          /* line 130, /Users/jakeryan/Documents/torey/scss/_home.scss */
-          #bio > .row .column .row.pic img.color, #bio > .row .columns .row.pic img.color {
-            display: none; }
-      /* line 135, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 129, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      #bio > .row .column .row.pic img, #bio > .row .columns .row.pic img {
+        max-width: 200px;
+        height: auto; }
+        /* line 132, /Users/jakeryan/Documents/torey/scss/_home.scss */
+        #bio > .row .column .row.pic img.color, #bio > .row .columns .row.pic img.color {
+          display: none; }
+      /* line 137, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column .row.title, #bio > .row .columns .row.title {
         min-height: 70px; }
-        /* line 137, /Users/jakeryan/Documents/torey/scss/_home.scss */
+        /* line 139, /Users/jakeryan/Documents/torey/scss/_home.scss */
         #bio > .row .column .row.title h3, #bio > .row .columns .row.title h3 {
           -webkit-transition: .2s ease-in-out;
           transition: .2s ease-in-out;
           font-weight: 500; }
-      /* line 143, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 144, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      #bio > .row .column .row.copy, #bio > .row .columns .row.copy {
+        text-align: left;
+        opacity: 0;
+        -webkit-transition: .5s ease-in-out;
+        transition: .5s ease-in-out; }
+        /* line 148, /Users/jakeryan/Documents/torey/scss/_home.scss */
+        #bio > .row .column .row.copy.opaque, #bio > .row .columns .row.copy.opaque {
+          opacity: 1;
+          -webkit-transition: .5s ease-in-out;
+          transition: .5s ease-in-out; }
+      /* line 154, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column.about img, #bio > .row .about.columns img {
         max-width: 275px; }
-      /* line 147, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 158, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column.specialties-copy, #bio > .row .specialties-copy.columns {
         display: none;
         position: absolute;
         text-align: left; }
-      /* line 152, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 163, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column.about-copy, #bio > .row .about-copy.columns {
         display: none;
         position: absolute;
         text-align: left; }
-      /* line 157, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 168, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #bio > .row .column.hobbies-copy, #bio > .row .hobbies-copy.columns {
         display: none;
         position: absolute;
         text-align: left; }
 
-/* line 166, /Users/jakeryan/Documents/torey/scss/_home.scss */
+/* line 177, /Users/jakeryan/Documents/torey/scss/_home.scss */
 #resume {
   padding: 120px 0;
   position: relative;
@@ -5670,7 +5681,7 @@ table.hover tr:nth-of-type(even):hover {
   background-position: center center;
   text-align: center;
   text-transform: uppercase; }
-  /* line 175, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  /* line 186, /Users/jakeryan/Documents/torey/scss/_home.scss */
   #resume .block {
     padding: 4rem .9375rem;
     position: relative;
@@ -5684,7 +5695,7 @@ table.hover tr:nth-of-type(even):hover {
     transition: .2s ease-in-out;
     border-top-right-radius: 50px;
     border-bottom-left-radius: 50px; }
-    /* line 188, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    /* line 199, /Users/jakeryan/Documents/torey/scss/_home.scss */
     #resume .block h2 a {
       position: relative;
       z-index: 2;
@@ -5694,14 +5705,14 @@ table.hover tr:nth-of-type(even):hover {
       text-shadow: 1px 1px 0px #5e4b14;
       font-style: normal;
       font-weight: 500; }
-    /* line 197, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    /* line 208, /Users/jakeryan/Documents/torey/scss/_home.scss */
     #resume .block:hover {
       box-shadow: 30px 30px 0 15px #b56969; }
-      /* line 201, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 212, /Users/jakeryan/Documents/torey/scss/_home.scss */
       #resume .block:hover::after {
         left: 30px;
         color: rgba(232, 237, 243, 0.4); }
-    /* line 206, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    /* line 217, /Users/jakeryan/Documents/torey/scss/_home.scss */
     #resume .block::after {
       position: absolute;
       content: "\f21d";
@@ -5715,7 +5726,7 @@ table.hover tr:nth-of-type(even):hover {
       transition: .2s ease-in-out;
       z-index: 1; }
 
-/* line 221, /Users/jakeryan/Documents/torey/scss/_home.scss */
+/* line 232, /Users/jakeryan/Documents/torey/scss/_home.scss */
 footer {
   background: #22264b;
   background: -webkit-gradient(left top, right bottom, color-stop(0%, #22264b), color-stop(80%, #22264b), color-stop(80%, #e8edf3), color-stop(100%, #e8edf3));
@@ -5727,7 +5738,7 @@ footer {
   padding: 60px 0;
   position: relative;
   color: #fff; }
-  /* line 236, /Users/jakeryan/Documents/torey/scss/_home.scss */
+  /* line 247, /Users/jakeryan/Documents/torey/scss/_home.scss */
   footer > .row {
     display: -webkit-box;
     display: -webkit-flex;
@@ -5738,20 +5749,20 @@ footer {
         -ms-flex-align: center;
             align-items: center;
     width: 100%; }
-    /* line 240, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    /* line 251, /Users/jakeryan/Documents/torey/scss/_home.scss */
     footer > .row h3 {
       color: #fff;
       font-weight: 900;
       line-height: 1;
       text-shadow: 2px 2px 0px #b56969; }
-    /* line 246, /Users/jakeryan/Documents/torey/scss/_home.scss */
+    /* line 257, /Users/jakeryan/Documents/torey/scss/_home.scss */
     footer > .row span {
       margin: 0 4px; }
-      /* line 248, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 259, /Users/jakeryan/Documents/torey/scss/_home.scss */
       footer > .row span .fa {
         color: #b56969;
         -webkit-transition: .2s ease-in-out;
         transition: .2s ease-in-out; }
-      /* line 253, /Users/jakeryan/Documents/torey/scss/_home.scss */
+      /* line 264, /Users/jakeryan/Documents/torey/scss/_home.scss */
       footer > .row span:hover .fa {
         color: #e6cf8b; }

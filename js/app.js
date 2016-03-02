@@ -1,5 +1,5 @@
 $(document).foundation();
-$(document).ready(function() {
+$(window).on("load", function() {
 
   function gateSlide() {
     $('#gate').slideUp(400);
@@ -41,9 +41,8 @@ $(document).ready(function() {
     $('img.bw', this).show();
   });
 
-  //bio seciton, on click, fly away not-clicked items, display hidden content
-  // $('#bio .row > .one').click(function() {
-  //   $(this).next('.two').toggleClass('fade-in');
-  // });
+  $('#bio .row > .one').click(function(event) {
+    $('.copy',this).toggleClass('opaque');
+  });
 
 });

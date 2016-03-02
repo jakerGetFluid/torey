@@ -94,7 +94,7 @@
 }// end hero
 
 #bio {
-  padding: 280px 0;
+  padding: 320px 0 40px;
   height: auto;
   width: 100%;
   position: relative;
@@ -110,7 +110,7 @@
 
   > .row {
     display: flex;
-    align-items: flex-end;
+    align-items: flex-start;
     .column {
       text-align: center;
       vertical-align: middle;
@@ -122,8 +122,10 @@
           font-size: 2.75rem;
         }
       }
-      .row.pic {
+      .row {
         margin: 0 auto;
+      }
+      .row.pic {
         img {
           max-width: 200px;
           height: auto;
@@ -137,6 +139,15 @@
         h3 {
           transition: .2s ease-in-out;
           font-weight: 500;
+        }
+      }
+      .row.copy {
+        text-align: left;
+        opacity: 0;
+        transition: .5s ease-in-out;
+        &.opaque {
+          opacity: 1;
+          transition: .5s ease-in-out;
         }
       }
       &.about {
