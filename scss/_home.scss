@@ -10,12 +10,10 @@
   color: $primary-color;
   display: flex;
   align-items: center;
-  align-content: center;
+  justify-content: center;
   text-align: center;
   i {
     animation: rotater 1s ease-in-out infinite;
-    margin: 0 auto;
-
     @keyframes rotater {
       to { transform: rotate(360deg); }
     }

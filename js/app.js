@@ -3,9 +3,6 @@ $(document).ready(function() {
 
   function gateSlide() {
     $('#gate').slideUp(400);
-    // $('main').fadeIn('fast', function() {
-    //
-    // });
   }
   setTimeout(gateSlide, 3000);
 
