@@ -42,7 +42,7 @@ $(window).on("load", function() {
   });
 
   $('#bio .row > .one').click(function(event) {
-    $('.copy',this).toggleClass('opaque');
+    $(this).toggleClass('active');
   });
 
 });

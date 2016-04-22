@@ -122,6 +122,19 @@
           font-size: 2.75rem;
         }
       }
+      .row.copy {
+        text-align: left;
+        opacity: 0;
+        transition: .5s ease-in-out;
+        &.opaque {
+          opacity: 1;
+        }
+      }
+      &.active {
+        .row.copy {
+          opacity: 1;
+        }
+      }
       .row {
         margin: 0 auto;
       }
@@ -141,34 +154,10 @@
           font-weight: 500;
         }
       }
-      .row.copy {
-        text-align: left;
-        opacity: 0;
-        transition: .5s ease-in-out;
-        &.opaque {
-          opacity: 1;
-          transition: .5s ease-in-out;
-        }
-      }
       &.about {
         img {
           max-width: 275px;
         }
-      }
-      &.specialties-copy {
-        display: none;
-        position: absolute;
-        text-align: left;
-      }
-      &.about-copy {
-        display: none;
-        position: absolute;
-        text-align: left;
-      }
-      &.hobbies-copy {
-        display: none;
-        position: absolute;
-        text-align: left;
       }
     }
   } //end icons and titles
