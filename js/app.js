@@ -4,7 +4,7 @@ $(window).on("load", function() {
   function gateSlide() {
     $('#gate').slideUp(400);
   }
-  setTimeout(gateSlide, 3000);
+  setTimeout(gateSlide, 2000);
 
   //title text shadow
   function shadow() {
